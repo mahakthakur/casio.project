@@ -1,0 +1,135 @@
+.parent{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    
+}
+img{
+    display: flex;
+    justify-content: baseline;
+    
+}
+nav ul {
+    list-style: none;
+    font-size: 1.2rem;
+    color: black;
+    display: flex;
+    gap: 40px;
+
+
+
+}
+nav ul li:hover{
+    color: rgb(52, 6, 96);
+    font-size: 2rem;
+}
+.marque{
+    display: flex;
+}
+.slidewar{
+    height: 90vh;
+   
+    
+    animation: changeimage 10s ease infinite;
+
+}
+@keyframes changeimage{
+    0%{
+        background-image: url(/casiowatch2.jpg);
+    }
+    25%{
+        background-image: url(/casio\ image\ 5.jpg);
+    }
+    50%{
+        background-image: url(/casiowatch3.jpeg);
+    }
+    75%{
+        background-image: url(/casio\ image\ 4.jpg);
+    }
+    100%{
+        background-image: url(casio\ watch1.jpeg);
+    }
+}
+.content{
+    display: flex;
+
+}
+.parent1{
+    display: flex;
+}
+.first1{
+    border: 2px solid black;
+    height: 280px;
+    width: 250px;
+background-image: url(casio1.jpeg);
+margin-top: 25px;
+margin-left: 20px;
+
+
+}
+.second{
+    border: 2px solid black;
+    height: 280px;
+    width: 250px;
+background-image: url(casio2.jpeg);
+margin-top: 25px;
+margin-left: 20px;
+
+
+}
+.third{
+    border: 2px solid black;
+    height: 280px;
+    width: 250px;
+background-image: url(casio3.jpeg);
+margin-top: 25px;
+margin-left: 20px;
+
+}
+.fourth{
+    border: 2px solid black;
+    height: 280px;
+    width: 250px;
+background-image: url(casio\ 4.jpg);
+margin-top: 25px;
+margin-left: 20px;
+
+}
+.five{
+    border: 2px solid black;
+    height: 280px;
+    width: 250px;
+background-image: url(casio\ 5.jpeg);
+margin-top: 25px;
+margin-left: 20px;
+
+}
+.price ul{
+    list-style: none;
+    font-size: 2rem;
+    color: black;
+    gap: 20px;
+    
+}
+.design{
+    display: flex;
+    justify-content: space-evenly;
+}
+button{
+    margin: auto;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: black;
+    color: beige;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+}
+footer{
+background-color: rgb(2, 2, 59);
+height: 60vh;
+}
+   
+
