@@ -1,19 +1,45 @@
+body{
+    background-color: black;
+}
+
+
 .parent{
+    
+    height: 80px;
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    height: 80px;
+    
     
 }
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.icon{
+    margin-top: 30px;
+    height: 50px;
+    gap: 50px;
+}
+.logo:hover{
+    color: rgb(100, 10, 10);
+}
+
 img{
     display: flex;
     justify-content: baseline;
     
+} nav{
+    background-color: #000814;
+    position: sticky;
+
+
 }
 nav ul {
     list-style: none;
     font-size: 1.2rem;
-    color: black;
+    color: rgb(224, 211, 211);
     display: flex;
     gap: 40px;
 
@@ -21,8 +47,8 @@ nav ul {
 
 }
 nav ul li:hover{
-    color: rgb(52, 6, 96);
-    font-size: 2rem;
+    color: tan;
+    
 }
 .marque{
     display: flex;
@@ -34,102 +60,539 @@ nav ul li:hover{
     animation: changeimage 10s ease infinite;
 
 }
+
+.icon1{
+    
+    color: rgb(231, 239, 246);
+    display: flex;
+    gap: 50px;
+}
+.icon2{
+    
+        color: aliceblue;
+        display: flex;
+        height: 20px;
+        justify-content: center;
+        
+}
+.first1 button{
+    background-color: #582f0e;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 1rem;
+    padding: 10px;
+}
+.third button{
+    background-color: #582f0e;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 1rem;
+    padding: 10px;
+}
+.fourth button{
+    background-color: #582f0e;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 1rem;
+    padding: 10px;
+}
+.five button{
+    background-color: #582f0e;
+    margin: auto;
+    color: aliceblue;
+    font-size: 1rem;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.six button{
+    background-color: #582f0e;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 1rem;
+    padding: 10px;
+}
+.seven button{
+    background-color: #582f0e;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 1rem;
+    padding: 10px;
+}
+.eight button{
+    background-color: #582f0e;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 1rem;
+    padding: 10px;
+}
+.nine button{
+    background-color: #582f0e;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 1rem;
+    padding: 10px;
+}
+.ten button{
+    background-color: #582f0e;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 1rem;
+    padding: 10px;
+}
+.second button{
+    background-color: #582f0e;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 1rem;
+    padding: 10px;
+}
+
 @keyframes changeimage{
     0%{
-        background-image: url(/casiowatch2.jpg);
+        background-image: url(titanp.jpg);
+        
     }
-    25%{
-        background-image: url(/casio\ image\ 5.jpg);
+
+
+    20%{
+        background-image: url(bg.jpeg);
+       
     }
-    50%{
-        background-image: url(/casiowatch3.jpeg);
+   
+    40%{
+        background-image: url(stealler.jpeg);
+        
     }
-    75%{
-        background-image: url(/casio\ image\ 4.jpg);
+    60%{
+        background-image: url(titan2.jpg);
+        
+    }
+    80%{
+        background-image: url(steller2.jpg);
     }
     100%{
-        background-image: url(casio\ watch1.jpeg);
+        background-image: url(titan\ 4.jpeg);
+       
     }
+}
+.new{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+    height: 950px;
+
+}
+.dis{
+    display: flex;
+}
+.charge{
+    display: flex;
+}
+.mumy{
+    color: beige;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: baseline;
+  
+}
+.mumy p{
+    margin-top: 200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.fol{
+    margin-left: 200px;
+}
+.divy{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+.divy p{
+    color: blanchedalmond;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Tektur", sans-serif;
+
+     
+}
+.master{
+    margin-left: 70px;
+    margin-top: 100px;
+    
+}
+.master p{
+    color: blanchedalmond;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Tektur", sans-serif;
+
+
 }
 .content{
     display: flex;
+    margin-top: 100px;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
 
 }
+.content img:hover{
+    background-image: 120%;
+}
+
+hr{
+    background-color: bisque;
+}
+.newnav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+    color: bisque;
+}
+.newnav ul li:hover{
+    text-decoration: underline solid rgb(224, 187, 187);
+    text-transform: capitalize;
+}
+.collection h1{
+    color: rgb(160, 125, 79);
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+}
+
 .parent1{
     display: flex;
+    justify-content: space-evenly;
+    height: 500px;
+    gap: 90px;
+    display: grid;
+    grid-template-columns: repeat(10,300px);
+    overflow:scroll;
+    scrollbar-width: none;
+    
 }
+.parent1 .first1:hover{
+    
+    scale: 1.1;
+
+}
+.parent1 .second:hover{
+    
+    scale: 1.1;
+
+}
+.parent1 .third:hover{
+    
+    scale: 1.1;
+
+}
+.parent1 .fourth:hover{
+    
+   scale: 1.1; 
+
+}
+.parent1 .five:hover{
+    
+    /* background-size: 130%;  */
+
+ scale: 1.1;
+
+}
+.parent1 .six:hover{
+    scale: 1.1;
+}
+.parent1 .seven:hover{
+    scale: 1.1;
+}
+.parent1 .eight:hover{
+    scale: 1.1;
+}
+.parent1 .nine:hover{
+    scale: 1.1;
+} 
+.parent1 .ten:hover{
+    scale: 1.1;
+}
+   
+
+
 .first1{
-    border: 2px solid black;
-    height: 280px;
+    
+    height: 350px;
     width: 250px;
-background-image: url(casio1.jpeg);
+    
+background-image: url(titanc-removebg-preview.png);
+background-repeat: no-repeat;
+background-size: 100% 100%;
 margin-top: 25px;
 margin-left: 20px;
+overlay: none;
 
 
+}
+.first1 ul li{
+    list-style: none;
+    color: bisque;
+    margin-top: 360px;
+    font-size: 2rem;
+    font-family: "Roboto Condensed", sans-serif;
+}
+.second ul li{
+    list-style: none;
+    color: bisque;
+    
+    font-size: 2rem;
+    font-family: "Roboto Condensed", sans-serif;
+}
+.third ul li{
+    list-style: none;
+    color: bisque;
+    
+    font-size: 2rem;
+    font-family: "Roboto Condensed", sans-serif;
+}
+.fourth ul li{
+    list-style: none;
+    color: bisque;
+    
+    font-size: 2rem;
+    font-family: "Roboto Condensed", sans-serif;
+}
+.five ul li{
+    list-style: none;
+    color: bisque;
+    
+    font-size: 2rem;
+    font-family: "Roboto Condensed", sans-serif;
+}
+.six ul li{
+    list-style: none;
+    color: bisque;
+    
+    font-size: 2rem;
+    font-family: "Roboto Condensed", sans-serif;
+}
+.seven ul li{
+    list-style: none;
+    color: bisque;
+    
+    font-size: 2rem;
+    font-family: "Roboto Condensed", sans-serif;
+}
+.eight ul li{
+    list-style: none;
+    color: bisque;
+    
+    font-size: 2rem;
+    font-family: "Roboto Condensed", sans-serif;
+}
+.nine ul li{
+    list-style: none;
+    color: bisque;
+    
+    font-size: 2rem;
+    font-family: "Roboto Condensed", sans-serif;
+}
+.ten ul li{
+    list-style: none;
+    color: bisque;
+    
+    font-size: 2rem;
+    font-family: "Roboto Condensed", sans-serif;
 }
 .second{
-    border: 2px solid black;
-    height: 280px;
-    width: 250px;
-background-image: url(casio2.jpeg);
+    
+    height: 400px;
+    width: 280px;
+
+background-repeat: no-repeat;
+background-size: 100% 100%;
 margin-top: 25px;
 margin-left: 20px;
+
 
 
 }
 .third{
-    border: 2px solid black;
-    height: 280px;
-    width: 250px;
-background-image: url(casio3.jpeg);
+    
+    height: 300px;
+    width: 280px;
+
+background-repeat: no-repeat;
+background-size: 100% 100%;
 margin-top: 25px;
 margin-left: 20px;
+
 
 }
 .fourth{
-    border: 2px solid black;
-    height: 280px;
-    width: 250px;
-background-image: url(casio\ 4.jpg);
+    
+    height: 300px;
+    width: 280px;
+background-repeat: no-repeat;
+background-size: 100% 100%;
 margin-top: 25px;
 margin-left: 20px;
+
 
 }
 .five{
-    border: 2px solid black;
-    height: 280px;
+    height: 300px;
     width: 250px;
-background-image: url(casio\ 5.jpeg);
+background-repeat: no-repeat;
+background-size: 100% 100%;
 margin-top: 25px;
 margin-left: 20px;
 
 }
-.price ul{
-    list-style: none;
-    font-size: 2rem;
-    color: black;
-    gap: 20px;
+.six{
+    height: 300px;
+    width: 250px;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+margin-top: 25px;
+margin-left: 20px;
+
+
+}
+.seven{
+    height: 300px;
+    width: 250px;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+
+
+}
+.eight{
+    height: 300px;
+    width: 250px;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+margin-top: 25px;
+margin-left: 20px;
+
+
+}
+.nine{
+    height: 300px;
+    width: 250px;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+margin-top: 25px;
+margin-left: 20px;
+
+
+}
+.ten{
+    height: 300px;
+    width: 250px;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+margin-top: 25px;
+margin-left: 20px;
+
+
+}
+
+.text{
+    margin-top: 40px;
+    margin-left: 50px;
+}
+h1{
+    font-size: 1.5rem;
+    margin-top: 50px;
+    text-shadow: 30px;
+    margin-left: 50px;
+}
+p{
+    margin-left: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+hr{
+    border: 1px solid rgb(235, 214, 214);
     
 }
-.design{
-    display: flex;
-    justify-content: space-evenly;
+.raga{
+    margin-top: 40px;
 }
-button{
-    margin: auto;
-    border-radius: 20px;
-    padding: 10px;
-    background-color: black;
-    color: beige;
-    border-radius: 10px;
+
+.five{
+    
+    height: 300px;
+    width: 250px;
+background-image: url();
+background-repeat: no-repeat;
+background-size: 100% 100%;
+margin-top: 25px;
+margin-left: 20px;
+
+}
+.last h1{
+    font-size: 2.5rem;
     display: flex;
     justify-content: center;
+    color: azure;
+}
+.last button{
+    background-color: black;
+    color: azure;
+    padding: 20px;
     font-size: 1rem;
+  box-shadow: 0 0 5;
+  margin-left: 95vh;
+  border-radius: 20px;
+  
+}
+.last h2{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    color: azure;
+
+
+}
+.last h2:hover{
+    color: #582f0e;
 }
 footer{
-background-color: rgb(2, 2, 59);
-height: 60vh;
+    background-color: #5b5b5b;
+    height: 400px;
 }
    
 
