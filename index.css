@@ -1,11 +1,66 @@
 body{
     background-color: black;
+    overflow-x: hidden;
+    width: 100%;
 }
+.icon4{
+    color: rgb(231, 239, 246);
+    display: flex;
+    gap: 50px;
+    margin: auto;
+
+}
+#click:checked~ .nav ul{
+    display: block;
+}
+@media screen and (max-width: 700px){
+    .nav ul{
+        display: block;
+    }
+    .nav ul{
+        display: none;
+        position: absolute;
+        top: 60px;
+        margin-right: 60px;
+        margin-top: 30px;
 
 
+    }
+    .nav ul li{
+        padding: 10px;
+    }
+}
+#click{
+    display: none;
+}
+.video{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 100px;
+    margin-top: 40px;
+
+}
+.steel p{
+    font-size: 1.5rem;
+    color: white;
+    display: flex;
+    
+}
+.watch{
+    display: flex;
+}
+.steel button{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    margin-left: 300px;
+    border-radius: 10px;
+
+}
 .parent{
     
-    height: 80px;
+    height: 70px;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     
@@ -15,7 +70,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto;
+    /* margin: auto; */
 }
 .icon{
     margin-top: 30px;
@@ -31,8 +86,9 @@ img{
     justify-content: baseline;
     
 } nav{
-    background-color: #000814;
+    background-color: black;
     position: sticky;
+    width: 100%;
 
 
 }
@@ -54,18 +110,53 @@ nav ul li:hover{
     display: flex;
 }
 .slidewar{
-    height: 90vh;
-   
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%, 100%;
+    width: 100%;
     
-    animation: changeimage 10s ease infinite;
+    animation: changeimage 20s ease infinite;
 
+}
+.slidewar h1{
+    display: flex;
+    justify-content: end;
+    font-size: 2.5rem;
+    color: #cdc8c8;
+    margin-top: 0px;
+    padding-left: 40px;
+    margin-right: 120px;
+
+}
+.slidewar img{
+    padding-top: 10vh;
+    padding-left: 1200px
+    ;
+    display: flex;
+    justify-content: center;
+
+}
+.slidewar button{
+    background-color: white;
+    color: black;
+    font-size: 1rem;
+    border-radius: 10px;
+    padding: 10px;
+ margin-left: 1250px;
+
+    
+    border: 2px solid black;
+    
 }
 
 .icon1{
     
     color: rgb(231, 239, 246);
     display: flex;
-    gap: 50px;
+    gap: 60px;
+    margin-right: 40px;
 }
 .icon2{
     
@@ -101,7 +192,7 @@ nav ul li:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    color: aliceblue;
+    color: black;
     font-size: 1rem;
     padding: 10px;
 }
@@ -178,91 +269,54 @@ nav ul li:hover{
 
 @keyframes changeimage{
     0%{
-        background-image: url(titanp.jpg);
+        background-image: url(titanbg2.avif);
         
     }
 
 
     20%{
-        background-image: url(bg.jpeg);
+        background-image: url(titanbg5.jpg);
        
     }
    
     40%{
-        background-image: url(stealler.jpeg);
+        background-image: url(titang.jpg);
         
     }
     60%{
-        background-image: url(titan2.jpg);
+        background-image: url(tt.jpg);
         
     }
     80%{
-        background-image: url(steller2.jpg);
+        background-image: url(titanbg.avif);
     }
     100%{
-        background-image: url(titan\ 4.jpeg);
+        background-image: url(titan5g.jpg);
        
     }
 }
-.new{
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    grid-template-rows: repeat(2, auto);
-    height: 950px;
-
-}
-.dis{
+.mhk{
     display: flex;
+    gap: 10px;
+    margin-top: 30px;
 }
-.charge{
-    display: flex;
-}
-.mumy{
-    color: beige;
-    font-family: "Roboto", sans-serif;
-    display: flex;
-    justify-content: baseline;
-  
-}
-.mumy p{
-    margin-top: 200px;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-
-.fol{
-    margin-left: 200px;
-}
-.divy{
-    height: 500px;
+.style{
+    font-size: 1rem;
+    color: rgb(160, 125, 79);
     display: flex;
     justify-content: center;
 }
-.divy p{
-    color: blanchedalmond;
-    text-transform: uppercase;
-    text-align: center;
-    font-family: "Tektur", sans-serif;
-
-     
-}
-.master{
-    margin-left: 70px;
-    margin-top: 100px;
-    
-}
-.master p{
-    color: blanchedalmond;
-    text-transform: uppercase;
-    text-align: center;
-    font-family: "Tektur", sans-serif;
 
 
+
+h1{
+   color: #cdc8c8;
+   font-size: 2.5rem;
+   display: flex;
+   justify-content: center;
+   color: azure;
 }
+
 .content{
     display: flex;
     margin-top: 100px;
@@ -292,18 +346,23 @@ hr{
     color: rgb(160, 125, 79);
     font-size: 2.5rem;
     display: flex;
+    position: relative;
+    
     justify-content: center;
 }
 
 .parent1{
     display: flex;
     justify-content: space-evenly;
-    height: 500px;
+height: 500px;
     gap: 90px;
     display: grid;
     grid-template-columns: repeat(10,300px);
-    overflow:scroll;
+    overflow-x:scroll;
+    overflow-y: hidden;
     scrollbar-width: none;
+    padding: 20px;
+    
     
 }
 .parent1 .first1:hover{
@@ -352,10 +411,9 @@ hr{
 
 
 .first1{
-    
-    height: 350px;
-    width: 250px;
-    
+      
+    height: 400px;
+    width: 280px; 
 background-image: url(titanc-removebg-preview.png);
 background-repeat: no-repeat;
 background-size: 100% 100%;
@@ -529,27 +587,11 @@ margin-left: 20px;
 
 }
 
-.text{
-    margin-top: 40px;
-    margin-left: 50px;
-}
-h1{
-    font-size: 1.5rem;
-    margin-top: 50px;
-    text-shadow: 30px;
-    margin-left: 50px;
-}
-p{
-    margin-left: 50px;
-    text-align: center;
-    text-transform: uppercase;
-}
+   
+
 hr{
     border: 1px solid rgb(235, 214, 214);
     
-}
-.raga{
-    margin-top: 40px;
 }
 
 .five{
@@ -590,9 +632,54 @@ margin-left: 20px;
 .last h2:hover{
     color: #582f0e;
 }
+.foot{
+  display: flex;
+  justify-content: space-evenly;
+
+
+}
+.foot1 ul li{
+    color: black;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    list-style: none;
+    margin-top: 10px;
+
+}
+.foot1 ul li:hover{
+    text-decoration: underline;
+    color: #582f0e;
+}
+.download{
+    gap: 40px;
+}
+.download button{
+    font-size: 1rem;
+    background-color: ;
+    color: black;
+    margin: auto;
+    border-radius: 10px;
+}
+.foot2{
+    margin-left: 20px;
+}
 footer{
-    background-color: #5b5b5b;
+    background-color: rgb(160, 125, 79);
     height: 400px;
+    color: black;
+    margin-top: 50px;
+
+}
+
+.pay{
+    display: flex;
+    gap: 30px;
+    justify-content: baseline;
+
+}
+.end{
+    display: flex;
+    justify-content: space-evenly;
 }
    
 
