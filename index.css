@@ -10,28 +10,9 @@ body{
     margin: auto;
 
 }
-#click:checked~ .nav ul{
-    display: block;
-}
-@media screen and (max-width: 700px){
-    .nav ul{
-        display: block;
-    }
-    .nav ul{
-        display: none;
-        position: absolute;
-        top: 60px;
-        margin-right: 60px;
-        margin-top: 30px;
-
-
-    }
-    .nav ul li{
-        padding: 10px;
-    }
-}
-#click{
-    display: none;
+@media screen and(max-width: 750px) {
+    
+    
 }
 .video{
     display: flex;
@@ -41,22 +22,31 @@ body{
 
 }
 .steel p{
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: white;
     display: flex;
+    margin-top: 100px;
     
 }
 .watch{
     display: flex;
 }
-.steel button{
-    background-color: white;
-    color: black;
+.steel h2{
+    
+    color: white;
     padding: 10px;
-    margin-left: 300px;
-    border-radius: 10px;
+     font-size: 1.5rem;
+      margin-left: 450px;
+      margin-top: -150px;
+
 
 }
+.steel h2:hover{
+    color: #582f0e;
+    text-decoration: underline solid white;
+    
+}
+
 .parent{
     
     height: 70px;
