@@ -3,6 +3,7 @@ body{
     overflow-x: hidden;
     width: 100%;
 }
+
 .icon4{
     color: rgb(231, 239, 246);
     display: flex;
@@ -10,9 +11,31 @@ body{
     margin: auto;
 
 }
+#click:checked~ .parent .icon1{
+    display: block;
+}
 @media screen and(max-width: 750px) {
+    .parent .icon1 label{
+        display: block;
+    }
+    .parent  .icon1{
+        display: none;
+        position: absolute;
+        top: 60px;
+        background-color:#100448;
+        margin-right: 60px;
+        margin-top: 30px;
+        
+
+    }
+    .parent icon1{
+        padding: 10px;
+    }
     
-    
+}
+#click{
+    display: none;
+   
 }
 .video{
     display: flex;
@@ -67,35 +90,20 @@ body{
     height: 50px;
     gap: 50px;
 }
-.logo:hover{
-    color: rgb(100, 10, 10);
-}
+
 
 img{
     display: flex;
     justify-content: baseline;
     
 } nav{
-    background-color: black;
+    background-color: transparent;
     position: sticky;
     width: 100%;
 
 
 }
-nav ul {
-    list-style: none;
-    font-size: 1.2rem;
-    color: rgb(224, 211, 211);
-    display: flex;
-    gap: 40px;
 
-
-
-}
-nav ul li:hover{
-    color: tan;
-    
-}
 .marque{
     display: flex;
 }
@@ -141,6 +149,36 @@ nav ul li:hover{
     
 }
 
+.iimg2{
+    margin-left: -800px;
+}
+.cend{
+    background-image: url(black.jpg);
+    height: 800px;
+    background-repeat: no-repeat;
+    width: 100%; background-size: cover;
+}
+.cend img{
+    padding-top: 150px;
+    padding-left: 200px;
+
+}
+
+.fix img{
+    margin-top: -90px;
+    margin-right: 150px;
+    
+}
+.fix h1{
+    margin-top: 280px;
+    margin-left: 100px;
+}
+
+.wavy{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .icon1{
     
     color: rgb(231, 239, 246);
@@ -156,106 +194,8 @@ nav ul li:hover{
         justify-content: center;
         
 }
-.first1 button{
-    background-color: #582f0e;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: aliceblue;
-    font-size: 1rem;
-    padding: 10px;
-}
-.third button{
-    background-color: #582f0e;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: aliceblue;
-    font-size: 1rem;
-    padding: 10px;
-}
-.fourth button{
-    background-color: #582f0e;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: black;
-    font-size: 1rem;
-    padding: 10px;
-}
-.five button{
-    background-color: #582f0e;
-    margin: auto;
-    color: aliceblue;
-    font-size: 1rem;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.six button{
-    background-color: #582f0e;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: aliceblue;
-    font-size: 1rem;
-    padding: 10px;
-}
-.seven button{
-    background-color: #582f0e;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: aliceblue;
-    font-size: 1rem;
-    padding: 10px;
-}
-.eight button{
-    background-color: #582f0e;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: aliceblue;
-    font-size: 1rem;
-    padding: 10px;
-}
-.nine button{
-    background-color: #582f0e;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: aliceblue;
-    font-size: 1rem;
-    padding: 10px;
-}
-.ten button{
-    background-color: #582f0e;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: aliceblue;
-    font-size: 1rem;
-    padding: 10px;
-}
-.second button{
-    background-color: #582f0e;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: aliceblue;
-    font-size: 1rem;
-    padding: 10px;
-}
+
+    
 
 @keyframes changeimage{
     0%{
@@ -287,8 +227,17 @@ nav ul li:hover{
 }
 .mhk{
     display: flex;
+  
     gap: 10px;
     margin-top: 30px;
+}
+@media screen and (max-width: 750px) {
+    .mhk img{
+        display: flex;
+        
+        
+    }
+    
 }
 .style{
     font-size: 1rem;
@@ -314,6 +263,23 @@ h1{
     margin-bottom: 50px;
 
 }
+@media screen  and (max-width:750px){
+    .content{
+        display: block;
+    
+    }
+    .parent1{
+        display: grid;
+        grid-template-columns: repeat(2,auto);
+        gap: 40px;
+        display: block;
+        
+    }
+    .mhk{
+        display: block;
+    }
+    
+}
 .content img:hover{
     background-image: 120%;
 }
@@ -321,6 +287,7 @@ h1{
 hr{
     background-color: bisque;
 }
+
 .newnav ul {
     list-style: none;
     display: flex;
@@ -346,8 +313,8 @@ hr{
     justify-content: space-evenly;
 height: 500px;
     gap: 90px;
-    display: grid;
-    grid-template-columns: repeat(10,300px);
+    /* display: grid;
+    grid-template-columns: repeat(10,300px); */
     overflow-x:scroll;
     overflow-y: hidden;
     scrollbar-width: none;
@@ -402,8 +369,8 @@ height: 500px;
 
 .first1{
       
-    height: 400px;
-    width: 280px; 
+    height: 350px;
+    width: 320px; 
 background-image: url(titanc-removebg-preview.png);
 background-repeat: no-repeat;
 background-size: 100% 100%;
@@ -416,15 +383,19 @@ overlay: none;
 .first1 ul li{
     list-style: none;
     color: bisque;
-    margin-top: 360px;
-    font-size: 2rem;
+    margin-top: 400px;
+    margin-left: 15px;
+    font-size: 1.5rem;
     font-family: "Roboto Condensed", sans-serif;
 }
 .second ul li{
     list-style: none;
     color: bisque;
+    margin-top: 50px;
+
+    margin-left: 25px;
     
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: "Roboto Condensed", sans-serif;
 }
 .third ul li{
@@ -654,7 +625,7 @@ margin-left: 20px;
     margin-left: 20px;
 }
 footer{
-    background-color: rgb(160, 125, 79);
+    background-color: #d6ccc2;
     height: 400px;
     color: black;
     margin-top: 50px;
