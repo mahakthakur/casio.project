@@ -657,7 +657,9 @@ footer{
     .collection{
         display: block;
     }
-    
+    .video{
+        display: block;
+    }
 }
 
 .pay{
