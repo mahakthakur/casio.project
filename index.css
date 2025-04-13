@@ -257,8 +257,16 @@ h1{
 @media screen  and (max-width:600px){
     .content{
         display: block;
+        background-size: cover;
+        background-size: 100%, 100%;
+        background-position: center;
+        
     
     }
+    .content img{
+        height: 220px;
+    }
+
      .parent1 div{
     display: block;
       
@@ -274,15 +282,22 @@ h1{
     }
     .mhk img{
     width: 400px;
+    margin-left: -30px;
     }
     .style h1{
         display: flex;
         justify-content: baseline;
-        margin-left: -100px;
+        margin-left: -40px;
         margin-top: 100px;
     }
     .video{
         display: block;
+       
+    }
+    .video video{
+        height: 300px;
+        margin-left: -100px;
+
     }
     .video img {
         height: 500px;
@@ -295,28 +310,50 @@ h1{
     }
     .slidewar h1{
         display: block;
-        margin-left: 300px;
+        margin-left: 200px;
         margin-top: -20px;
     }
     .slidewar img{
         display: block;
-        margin-left: -900px;
+        margin-left: -1000px;
         padding-top: 300px;
     }
     .slidewar button{
         display: block;
-        margin-left: 350px;
+        margin-left: 250px;
     }
     .wavy img{
         margin-left: -220px;
        
     }
+    
     .fix h1{
-        margin-left: -100px;
+        margin-left: -500px;
         margin-top: 400px;
 
     }
+    .watch img{
+        margin-left: -100px;
+    
+    }
+    .watch p{
+        margin-left: -120px;
+    }
+    .video h2{
+        margin-left: 250px;
+    }
+    .last h1{
+        display: flex;
+        justify-content: center;
+        margin-left: 60px;
+    }
+    .last button{
+        margin-left: -1000px;
+
+    
+    }
 }
+
 
     
     
@@ -666,6 +703,7 @@ margin-left: 20px;
 }
 .foot2{
     margin-left: 20px;
+    color: beige;
 }
 footer{
     background-color: #d6ccc2;
@@ -680,9 +718,10 @@ footer{
        align-items: center;
     }
     .foot2{
-        flex-wrap: wrap;
-        align-items: center;
-        margin-left: -50px;
+        /* flex-wrap: wrap;
+        align-items: center; */
+        display: block;
+        margin-left: -100px;
 
     }
     .end{
@@ -695,6 +734,7 @@ footer{
     .video{
         display: block;
     }
+   
 }
 
 .pay{
@@ -706,6 +746,7 @@ footer{
 .end{
     display: flex;
     justify-content: space-evenly;
+
 }
    
 
