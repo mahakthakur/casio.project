@@ -259,29 +259,63 @@ h1{
         display: block;
     
     }
-    .parent1 {
-       
-        display: grid; 
-        grid-template-columns: repeat(2, auto);
+     .parent1 div{
+    display: block;
+      
         
     }
     .mhk{
         display: block;
         background-size: cover;
+        background-position: center;
+        width: 500px;
+        background-size: 100%, 100%;
         margin-left: 40px;
+    }
+    .mhk img{
+    width: 400px;
     }
     .style h1{
         display: flex;
         justify-content: baseline;
-        margin-left: -220px;
+        margin-left: -100px;
+        margin-top: 100px;
     }
     .video{
         display: block;
     }
     .video img {
-        height: 400px;
+        height: 500px;
+        width: 100%;
 
     } 
+    .slidewar{
+        background-size: 100%,100%;
+        background-size: cover;
+    }
+    .slidewar h1{
+        display: block;
+        margin-left: 300px;
+        margin-top: -20px;
+    }
+    .slidewar img{
+        display: block;
+        margin-left: -900px;
+        padding-top: 300px;
+    }
+    .slidewar button{
+        display: block;
+        margin-left: 350px;
+    }
+    .wavy img{
+        margin-left: -220px;
+       
+    }
+    .fix h1{
+        margin-left: -100px;
+        margin-top: 400px;
+
+    }
 }
 
     
@@ -319,7 +353,7 @@ hr{
 .parent1{
     display: flex;
     justify-content: space-evenly;
-height: 500px;
+    height: 500px;
     gap: 90px;
     /* display: grid;
     grid-template-columns: repeat(10,300px); */
@@ -648,6 +682,7 @@ footer{
     .foot2{
         flex-wrap: wrap;
         align-items: center;
+        margin-left: -50px;
 
     }
     .end{
