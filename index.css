@@ -824,7 +824,8 @@ footer{
         display: block;
     }
     .cards{
-        overflow-x: hidden;
+        overflow: scroll;
+        margin-left: -90px;
         
         
     }
