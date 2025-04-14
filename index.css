@@ -13,7 +13,7 @@ body{
 } #click:checked~ .parent .icon1{
     display: block;
 }
-@media screen and(max-width: 700px) {
+@media screen and(max-width: 500px) {
     .parent .icon1 label{
         display: block;
     }
@@ -260,11 +260,12 @@ h1{
     margin-bottom: 50px;
 
 }
-@media screen  and (max-width:700px){
+@media screen  and (max-width:500px){
     body{
         margin: 0;
   padding: 0;
   overflow: none;
+  
   
     }
     .content{
@@ -775,7 +776,7 @@ footer{
 
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:500px) {
     .foot1 {
        flex-wrap: wrap;
        align-items: center;
