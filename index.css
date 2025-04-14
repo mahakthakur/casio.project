@@ -263,7 +263,7 @@ h1{
     body{
         margin: 0;
   padding: 0;
-  overflow-x: hidden;
+  overflow: none;
   
     }
     .content{
@@ -807,6 +807,32 @@ footer{
         display: block;
     }
    
+}
+.items1{
+    height: 100px;
+    background-color: black;
+
+}
+.cards{
+    display: flex;
+    gap: 40px;
+
+}
+.cards div img{
+    border-radius: 50px;
+}
+.cards div img:hover{
+height: 380px;
+}
+.items2 {
+    height: 100px;
+    background-color: black;
+
+
+}
+
+.items1 h1{
+    color: beige;
 }
 
 .pay{
