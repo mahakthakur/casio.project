@@ -372,13 +372,13 @@ h1{
     }
     
     .fix h1{
-        margin-left: -500px;
+        margin-left: -350px;
         margin-top: 400px;
 
     }
     .fix img{
         display: block;
-        margin-left: -300px;
+        margin-left: -250px;
     }
     .watch img{
         margin-left: -100px;
@@ -395,14 +395,13 @@ h1{
         justify-content: center;
         margin-left: 60px;
     }
-    button{
-       display: none;
-       margin-left: 500px;
+   .last a{
+      display: flex;
 
     
     }
     .newnav ul li{
-        display: none;
+      display: none;
     }
     
 }   
@@ -847,9 +846,12 @@ footer{
     }
     .cards{
         overflow: scroll;
-        margin-left: -200px;
+        margin-left: -130px;
         
         
+    }
+    .video hr{
+        display: none;
     }
     
     
