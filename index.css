@@ -33,7 +33,9 @@
     .parent icon1{
         padding: 10px;
     }
-    
+    .parent{
+        width: 100%;
+    }
     
 }
 #click{
@@ -372,8 +374,9 @@ h1{
     }
     
     .fix h1{
-        margin-left: -350px;
+        margin-left: -300px;
         margin-top: 400px;
+        font-size: 1.5rem;
 
     }
     .fix img{
