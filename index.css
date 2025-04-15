@@ -819,10 +819,10 @@ footer{
         display: flex;
         justify-content: center;
         margin-left: -0px;
-        margin-top: -20px;
+        margin-top: -50px;
         background-color: #d6ccc2;
         color: black;
-
+font-size: 1rem;
     
     }
     .cards{
@@ -849,12 +849,24 @@ footer{
     }
     .cards{
         overflow: scroll;
-        margin-left: -130px;
+        margin-left: 10px;
+    
         
         
     }
+    .items1 h1{
+        font-size: 1.4rem;
+    }
     .video hr{
         display: none;
+    }
+    .last h1{
+        font-size: 2rem;
+    }
+    .last button{
+        display: contents;
+       padding-left: 200px;
+        
     }
     
     

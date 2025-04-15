@@ -84,3 +84,20 @@
 .new p:hover{
     text-decoration: underline;
 }
+@media  screen and (max-width: 750px) {
+  .log1 img{
+    display: none;
+  }
+  .new{
+    height: 900px;
+    width: 400px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+    
+  }
+  .log2{
+    background-color: black;
+  }
+}
