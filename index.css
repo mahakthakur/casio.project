@@ -1,8 +1,8 @@
-body{
+ html,body{
     background-color: black;
     overflow-x: hidden;
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
     
     width: 100%;
 }
@@ -16,7 +16,7 @@ body{
 } #click:checked~ .parent .icon1{
     display: block;
 }
-@media screen and(max-width: 500px) {
+@media screen and(max-width: 750px) {
     .parent .icon1 label{
         display: block;
     }
@@ -54,6 +54,7 @@ body{
     margin-top: 100px;
     
 }
+
 .watch{
     display: flex;
 }
@@ -128,9 +129,15 @@ img{
     color: #cdc8c8;
     margin-top: 0px;
     padding-left: 40px;
-    margin-right: 120px;
+    margin-right: 120px;    
 
 }
+.slidewar h1:hover{
+    color: #cd8244;
+
+}
+
+
 .slidewar img{
     padding-top: 10vh;
     padding-left: 1200px
@@ -274,14 +281,14 @@ h1{
     margin-bottom: 50px;
 
 }
-@media screen  and (max-width:500px){
-    /* body{
+@media screen  and (max-width:750px){
+    body{
         margin: 0;
   padding: 0;
   overflow-x: hidden;
   flex-direction: column;
   
-    } */
+    } 
     .content{
         display: block;
         background-size: cover;
@@ -398,11 +405,7 @@ h1{
         display: none;
     }
     
-}
-
-
-    
-    
+}   
      
 
 .content img:hover{
@@ -778,6 +781,10 @@ margin-left: 20px;
     margin: auto;
     border-radius: 10px;
 }
+.download button:hover{
+    background-color: black;
+    color: #cdc8c8;
+}
 .foot2{
     margin-left: 20px;
     color: black;
@@ -790,7 +797,7 @@ footer{
 
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:750px) {
     .foot1 {
        flex-wrap: wrap;
        align-items: center;
@@ -855,7 +862,7 @@ footer{
 }
 .cards{
     display: flex; 
-    gap: 40px;
+    gap: 35px;
 
 }
 .cards div img{
@@ -867,10 +874,8 @@ footer{
 height: 380px;
 
 
-}
-.cards div h1{
-    display: none;
-}
+} 
+
 
 .items2 {
     height: 100px;

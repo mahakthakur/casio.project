@@ -1,0 +1,86 @@
+.form{
+    display: flex;
+    justify-content: center;
+   
+}
+.new{
+     
+    height: 700px;
+    background-color: black;
+    width: 850px;
+    margin-left: 50vh;
+}
+
+.log2 img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+
+}
+.log2 h1{
+    font-size: 2rem;
+    margin-left: 150px;
+    color: antiquewhite;
+    margin-top: -10px;
+
+}
+.log2 h1:hover{
+    color: rgb(66, 40, 7);
+}
+.log2 p{
+    font-size: 1.3rem;
+    margin-left: 20px;
+    color: antiquewhite;
+
+}
+.log2 h2{
+    margin-left: 20px;
+    color: antiquewhite;
+}
+.log2 h2:hover{
+    font-size: 1.8rem;
+    color: rgb(32, 20, 4);
+
+}
+.log2 input{
+    margin-left: 60px;
+    background-size: 100px;
+}
+.log2 button{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    background-color: black;
+    margin-top: 20px;
+    margin-left: 150px;
+    font-size: 1rem;
+}
+.log2 button:hover{
+    color: black;
+    background-color: beige;
+
+}
+.log2 h3{
+    margin-left: 160px;
+    margin-top: 30px;
+    font-size: 1.5rem;
+    color: antiquewhite;
+
+}
+.log2 h3:hover{
+    color: rgb(74, 44, 3);
+    text-decoration: underline white;
+}
+.new p{
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+.new p:hover{
+    text-decoration: underline;
+}
