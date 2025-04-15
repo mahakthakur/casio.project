@@ -1,6 +1,9 @@
 body{
     background-color: black;
     overflow-x: hidden;
+    margin: 0%;
+    padding: 0%;
+    
     width: 100%;
 }
 
@@ -136,6 +139,10 @@ img{
     justify-content: center;
 
 }
+.slidewar button:hover{
+    background-color: black;
+    color: antiquewhite;
+}
 .slidewar button{
     background-color: white;
     color: black;
@@ -230,6 +237,13 @@ margin-left: 250px;
        
     }
 }
+.items1 h1:hover{
+    color: #582f0e;
+    
+}
+.items2 h1:hover{
+    color: #582f0e;
+}
 .mhk{
     display: flex;
   
@@ -261,13 +275,13 @@ h1{
 
 }
 @media screen  and (max-width:500px){
-    body{
+    /* body{
         margin: 0;
   padding: 0;
   overflow-x: hidden;
   flex-direction: column;
   
-    }
+    } */
     .content{
         display: block;
         background-size: cover;
